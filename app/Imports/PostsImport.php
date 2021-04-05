@@ -14,6 +14,7 @@ class PostsImport implements ToModel
      */
     public function model(array $row)
     {
+        
         return new Posts([
             'title' =>$row[1],
             'description'=>$row[2],
